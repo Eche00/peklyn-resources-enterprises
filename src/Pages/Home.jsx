@@ -18,7 +18,6 @@ function Home() {
         <Featured />
         <Reviews />
         <Together />
-        <Hero />
       </div>
     </div>
   );

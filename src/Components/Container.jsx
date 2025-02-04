@@ -7,7 +7,7 @@ function Container() {
   return (
     <div>
       <Header />
-      <div className="py-[100px] h-screen">
+      <div className="py-[100px] ">
         <Outlet />
       </div>
       <Footer />

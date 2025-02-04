@@ -1,7 +1,7 @@
 import React from "react";
 
 function Services() {
-  return <div>Services</div>;
+  return <div className=" bg-gray-400 h-screen">Services</div>;
 }
 
 export default Services;
