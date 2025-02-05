@@ -81,7 +81,7 @@ function Hero() {
           </div>
         </section>
         {/* sections 3  */}
-        <section className="flex items-center py-[20px] sm:w-[70%] mx-auto w-full  justify-between">
+        <section className="flex items-center py-[30px] sm:w-[70%] mx-auto w-full  justify-between">
           <p className="font-bold  flex flex-col sm:text-4xl text-[20px] items-center ">
             <b> 500+</b>
             <span className=" sm:text-xl text-[14px] text-gray-700 text-center">
