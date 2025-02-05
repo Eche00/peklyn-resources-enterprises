@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 function Header() {
   const [nav, setNav] = useState(false);
   return (
-    <div className="fixed top-0 w-full bg-white/50 backdrop-blur-sm">
+    <div className="fixed top-0 w-full bg-white/50 backdrop-blur-sm z-50">
       {/* Container  */}
       <div className=" w-[95%] mx-auto flex items-center justify-between py-[20px]">
         {/* first section  */}

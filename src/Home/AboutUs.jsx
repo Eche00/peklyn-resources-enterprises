@@ -73,7 +73,7 @@ function About() {
             </section>
             {/* each column  */}
             <section className=" bg-gray-100 p-[20px] rounded-[20px] flex flex-col gap-[10px]">
-              <h2 className=" sm:text-[35px] text-[23px] sm:font-bold font-extrabold sm:leading-[35px] text-black flex items-center justify-between">
+              <h2 className=" sm:text-[35px] text-[23px] font-bold sm:leading-[35px] text-black flex items-center justify-between">
                 Building Renovation{" "}
                 <button
                   id="vision"
@@ -94,7 +94,7 @@ function About() {
             </section>
             {/* each column  */}
             <section className=" bg-gray-100 p-[20px] rounded-[20px] flex flex-col gap-[10px]">
-              <h2 className=" sm:text-[35px] text-[23px] sm:font-bold font-extrabold sm:leading-[35px] text-black flex items-center justify-between">
+              <h2 className=" sm:text-[35px] text-[23px] font-bold sm:leading-[35px] text-black flex items-center justify-between">
                 Building Renovation{" "}
                 <button
                   id="history"
