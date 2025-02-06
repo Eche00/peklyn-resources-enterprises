@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { TestImg } from "../assets";
 import { ArrowBackIosRounded, ArrowDownward } from "@mui/icons-material";
 
-function About() {
+function AboutUs() {
   const [vision, setVision] = useState(false);
   const [history, setHistory] = useState(false);
 
@@ -19,7 +19,7 @@ function About() {
     }
   };
   return (
-    <div className="  sm:py-[100px] py-[50px]">
+    <div className="  sm:py-[100px] py-[50px]    bg-[linear-gradient(to_right,#4f4f4f0e_0.8px,transparent_0.1px),linear-gradient(to_bottom,#4f4f4f0e_0.8px,transparent_0.1px)] md:bg-[size:104px_104px] bg-[size:50px_50px]  [mask-image:radial-gradient(ellipse_100%_70%_at_50%_100%,#000_70%,transparent_[200%])]  ">
       {/* container  */}
       <div className=" w-[95%] mx-auto flex flex-col gap-[50px]">
         {/* sections  */}
@@ -44,7 +44,7 @@ function About() {
           </Link>
         </section>
         {/* section 2  */}
-        <section className=" flex sm:flex-row flex-col sm:gap-0 gap-[70px]">
+        <section className=" flex sm:flex-row flex-col sm:gap-0 gap-[70px] pb-[50px]">
           <div className=" flex flex-1 relative">
             <img
               src={TestImg}
@@ -120,4 +120,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutUs;

@@ -7,7 +7,7 @@ function Container() {
   return (
     <div>
       <Header />
-      <div className="py-[100px] ">
+      <div className="pt-[100px] ">
         <Outlet />
       </div>
       <Footer />
