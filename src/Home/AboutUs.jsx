@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { TestImg } from "../assets";
 import { ArrowBackIosRounded, ArrowDownward } from "@mui/icons-material";
 
 function AboutUs() {
   const [vision, setVision] = useState(false);
   const [history, setHistory] = useState(false);
-
+  const location = useLocation();
+  const active = "/about";
   const handleDropdown = (e) => {
     e.preventDefault();
     if (e.target.id === "vision") {
@@ -37,11 +38,13 @@ function AboutUs() {
               </span>{" "}
             </p>
           </div>
-          <Link
-            to="/about"
-            className=" bg-black sm:py-4 py-3 rounded-full font-bold sm:text-[16px] text-[10px] whitespace-nowrap text-white sm:px-18 px-5">
-            Learn More
-          </Link>
+          {location.pathname !== active && (
+            <Link
+              to="/about"
+              className=" bg-black sm:py-4 py-3 rounded-full font-bold sm:text-[16px] text-[10px] whitespace-nowrap text-white sm:px-18 px-5">
+              Learn More
+            </Link>
+          )}
         </section>
         {/* section 2  */}
         <section className=" flex sm:flex-row flex-col sm:gap-0 gap-[70px] pb-[50px]">
