@@ -7,7 +7,7 @@ function Container() {
   return (
     <div>
       <Header />
-      <div className="pt-[100px] ">
+      <div className=" overflow-hidden">
         <Outlet />
       </div>
       <Footer />

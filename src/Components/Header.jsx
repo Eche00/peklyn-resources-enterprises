@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="fixed top-0 w-full bg-white/50 backdrop-blur-sm z-50">
       {/* Container  */}
-      <div className=" w-[95%] mx-auto flex items-center justify-between py-[20px]">
+      <div className=" w-[95%] mx-auto flex items-center justify-between sm:py-[20px] py-[10px]">
         {/* first section  */}
         <section className=" w-[150px] bg-black h-[40px]">
           <img src="" alt="" />

@@ -70,8 +70,8 @@ function ContactUs() {
     </svg>
   );
   return (
-    <div className="relative">
-      <div className=" bg-gray-100 w-full  s py-[50px]">
+    <div className="relative py-[]">
+      <div className=" bg-gray-100 w-full   py-[100px]">
         <div>
           <div className=" flex items-center justify-center ">
             <div className=" flex flex-col md:gap-[24px] gap-[5px] items-center">
