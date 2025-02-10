@@ -86,7 +86,7 @@ function ContactUs() {
           {/* part 2 */}
           <div className=" flex flex-wrap  gap-[33px] items-center justify-center py-[50px]  sm:w-full w-[90%] mx-auto">
             {/* count  */}
-            <div className=" py-[25px] px-[40px] flex flex-col gap-[48px] border border-[#1A1A1A33] rounded-[10px] bg-black md:w-fit w-[90%]">
+            <div className=" py-[25px] px-[40px] flex flex-col gap-[48px] border border-[#1A1A1A33] rounded-[10px] bg-blue-700  md:w-fit w-[90%]">
               <span className=" p-[10px] rounded-[5px] border border-white w-fit">
                 {phone}
               </span>

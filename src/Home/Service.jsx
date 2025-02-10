@@ -24,8 +24,8 @@ function Service() {
         {/* section 2  */}
         <section className=" flex sm:flex-row flex-col gap-[50px]">
           {/* each box */}
-          <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px] bg-black border-black ">
-            <span className=" border-2 rounded-full p-3 w-fit  bg-white text-black">
+          <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px] bg-blue-700 border-blue-700 ">
+            <span className=" border-2 rounded-full p-3 w-fit  bg-white text-blue-700">
               <ExitToApp />
             </span>
             <article>
@@ -45,7 +45,7 @@ function Service() {
           </div>
           {/* each box */}
           <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
-            <span className=" border-2 rounded-full p-3 w-fit ">
+            <span className=" text-white rounded-full p-3 w-fit  bg-blue-700 border-2 border-blue-700">
               <ExitToApp />
             </span>
             <article>
@@ -65,7 +65,7 @@ function Service() {
           </div>
           {/* each box */}
           <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
-            <span className=" border-2 rounded-full p-3 w-fit ">
+            <span className=" text-white rounded-full p-3 w-fit  bg-blue-700 border-2 border-blue-700">
               <ExitToApp />
             </span>
             <article>
@@ -85,7 +85,7 @@ function Service() {
           </div>
           {/* each box */}
           <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
-            <span className=" border-2 rounded-full p-3 w-fit ">
+            <span className=" text-white rounded-full p-3 w-fit  bg-blue-700 border-2 border-blue-700">
               <ExitToApp />
             </span>
             <article>

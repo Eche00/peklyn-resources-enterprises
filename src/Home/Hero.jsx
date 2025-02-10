@@ -71,10 +71,10 @@ function Hero() {
                   </ul>
                 </div>
                 <div className="flex items-center sm:gap-[50px] gap-[20px]">
-                  <button className=" bg-black py-4 rounded-full font-bold text-[16px] text-white w-full">
+                  <button className=" bg-blue-700 py-4 rounded-full font-bold text-[16px] text-white w-full">
                     Book now
                   </button>
-                  <button className=" border-2  py-4 rounded-full font-bold text-[16px]  w-full">
+                  <button className=" border-2 border-blue-700 text-blue-700  py-4 rounded-full font-bold text-[16px]  w-full">
                     Call us
                   </button>
                 </div>

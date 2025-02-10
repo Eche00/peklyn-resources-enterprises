@@ -49,7 +49,7 @@ function Support() {
                 </p>
                 <ul className="flex flex-col sm:gap-[10px] gap-[5px] sm:px-0 px-[10px]  sm:text-[22px] text-[16px text-gray-700">
                   <li className=" flex items-center gap-[10px]">
-                    <span className=" border-2 bg-black text-white rounded-full p-1 flex items-center justify-center">
+                    <span className=" border-2 bg-blue-700 border-blue-700 text-white rounded-full p-1 flex items-center justify-center">
                       <Check fontSize="" />
                     </span>{" "}
                     Excellence in evwry detail
@@ -75,7 +75,7 @@ function Support() {
                 </ul>
               </div>
               <div className="flex items-center  gap-[20px] sm:py-0 py-5 my-0 sm:my-10">
-                <button className=" bg-black sm:py-4 py-2 sm:px-32 px-20 rounded-full font-bold text-[16px] text-white w-fit">
+                <button className=" bg-blue-700 border-blue-700 sm:py-4 py-2 sm:px-32 px-20 rounded-full font-bold text-[16px] text-white w-fit">
                   Call us
                 </button>
               </div>

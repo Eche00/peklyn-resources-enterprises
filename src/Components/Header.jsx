@@ -9,7 +9,7 @@ function Header() {
       {/* Container  */}
       <div className=" w-[95%] mx-auto flex items-center justify-between sm:py-[20px] py-[10px]">
         {/* first section  */}
-        <section className=" w-[150px] bg-black h-[40px]">
+        <section className=" w-[150px] bg-blue-700 h-[40px]">
           <img src="" alt="" />
         </section>
 
@@ -41,7 +41,7 @@ function Header() {
         <section className="sm:flex hidden">
           <Link
             to="/book"
-            className=" rounded-full bg-black py-3 px-6 text-[14px] font-bold text-white">
+            className=" rounded-full bg-blue-700 py-3 px-6 text-[14px] font-bold text-white">
             Book now
           </Link>
         </section>
@@ -49,7 +49,7 @@ function Header() {
         <section className=" flex flex-col sm:hidden">
           {/* menu  */}
           <button
-            className=" font-bold text-[30px] sm:hidden flex px-[5px]"
+            className=" font-bold text-[25px] sm:hidden flex px-[10px]"
             onClick={() => setNav(true)}>
             &#9776;
           </button>
@@ -103,7 +103,7 @@ function Header() {
                       <section className=" flex flex-col justify-between h-full ">
                         <Link
                           to="/book"
-                          className=" py-[5px] px-[10px] border opacity-90 rounded-[5px] max-w-[70%] text-center">
+                          className=" py-[5px] px-[10px]  text-white bg-blue-700 opacity-90 rounded-[5px] max-w-[70%] text-center">
                           Book now
                         </Link>
                       </section>

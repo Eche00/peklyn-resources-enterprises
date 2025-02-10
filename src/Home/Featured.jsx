@@ -24,7 +24,7 @@ function Featured() {
           </div>
           <button
             to="/about"
-            className=" bg-black sm:py-4 py-3 rounded-full font-bold sm:text-[16px] text-[10px] whitespace-nowrap text-white sm:px-18 px-5">
+            className=" bg-blue-700 sm:py-4 py-3 rounded-full font-bold sm:text-[16px] text-[10px] whitespace-nowrap text-white sm:px-18 px-5">
             Reach Out
           </button>
         </section>
@@ -47,7 +47,7 @@ function Featured() {
                   REACT, TAILWIND, FIREBASE, NODE.JS
                 </p>
               </div>
-              <ul className=" text-xs text-white bg-black p-2 rounded-md font-semibold flex items-center justify-between gap-4">
+              <ul className=" text-xs text-white bg-blue-700 p-2 rounded-md font-semibold flex items-center justify-between gap-4">
                 <li className=" text-xl">
                   <a href="https://x.com/Eche_codes?t=Wab7izpdS7-ewMqBV6TsVA&s=09">
                     𝕏
@@ -90,7 +90,7 @@ function Featured() {
                   REACT, TAILWIND, FIREBASE, NODE.JS
                 </p>
               </div>
-              <ul className=" text-xs text-white bg-black p-2 rounded-md font-semibold flex items-center justify-between gap-4">
+              <ul className=" text-xs text-white bg-blue-700 p-2 rounded-md font-semibold flex items-center justify-between gap-4">
                 <li className=" text-xl">
                   <a href="https://x.com/Eche_codes?t=Wab7izpdS7-ewMqBV6TsVA&s=09">
                     𝕏
@@ -133,7 +133,7 @@ function Featured() {
                   REACT, TAILWIND, FIREBASE, NODE.JS
                 </p>
               </div>
-              <ul className=" text-xs text-white bg-black p-2 rounded-md font-semibold flex items-center justify-between gap-4">
+              <ul className=" text-xs text-white bg-blue-700 p-2 rounded-md font-semibold flex items-center justify-between gap-4">
                 <li className=" text-xl">
                   <a href="https://x.com/Eche_codes?t=Wab7izpdS7-ewMqBV6TsVA&s=09">
                     𝕏
@@ -176,7 +176,7 @@ function Featured() {
                   REACT, TAILWIND, FIREBASE, NODE.JS
                 </p>
               </div>
-              <ul className=" text-xs text-white bg-black p-2 rounded-md font-semibold flex items-center justify-between gap-4">
+              <ul className=" text-xs text-white bg-blue-700 p-2 rounded-md font-semibold flex items-center justify-between gap-4">
                 <li className=" text-xl">
                   <a href="https://x.com/Eche_codes?t=Wab7izpdS7-ewMqBV6TsVA&s=09">
                     𝕏

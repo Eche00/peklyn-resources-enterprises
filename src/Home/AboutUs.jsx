@@ -41,7 +41,7 @@ function AboutUs() {
           {location.pathname !== active && (
             <Link
               to="/about"
-              className=" bg-black sm:py-4 py-3 rounded-full font-bold sm:text-[16px] text-[10px] whitespace-nowrap text-white sm:px-18 px-5">
+              className=" bg-blue-700 sm:py-4 py-3 rounded-full font-bold sm:text-[16px] text-[10px] whitespace-nowrap text-white sm:px-18 px-5">
               Learn More
             </Link>
           )}
