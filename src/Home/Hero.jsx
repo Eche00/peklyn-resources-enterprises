@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  TestImg,
   heroImg,
   herooImg,
   herooImg1,

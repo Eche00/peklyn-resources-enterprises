@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  TestImg,
   supportIm1,
   supportIm2,
   supportIm3,

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { TestImg, aboutImg, aboutImg2 } from "../assets";
+import { aboutImg, aboutImg2 } from "../assets";
 import { ArrowBackIosRounded, ArrowDownward } from "@mui/icons-material";
 
 function AboutUs() {
