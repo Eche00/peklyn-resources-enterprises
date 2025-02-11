@@ -7,7 +7,6 @@ import {
   supportIm5,
   supportImg,
 } from "../assets";
-import { Link } from "react-router-dom";
 import { Check } from "@mui/icons-material";
 
 function Support() {

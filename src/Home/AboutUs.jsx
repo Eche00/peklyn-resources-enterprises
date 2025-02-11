@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { aboutImg, aboutImg2 } from "../assets";
-import { ArrowBackIosRounded, ArrowDownward } from "@mui/icons-material";
 
 function AboutUs() {
   const [vision, setVision] = useState(false);
