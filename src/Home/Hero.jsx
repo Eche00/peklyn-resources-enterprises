@@ -1,5 +1,5 @@
 import React from "react";
-import { TestImg } from "../assets";
+import { TestImg, heroImg, herooImg } from "../assets";
 
 function Hero() {
   return (
@@ -8,18 +8,19 @@ function Hero() {
         {/* container  */}
         <div>
           {/* sections  */}
-          <section className=" flex sm:items-center justify-between  sm:flex-row flex-col sm:py-[50px] pb-[30px]">
+          <section className=" flex sm:items-center justify-between   sm:py-[50px] pb-[30px]">
             <span className=" flex flex-1">
               <h1 className=" sm:text-[70px] text-[25px] sm:font-bold font-extrabold sm:leading-[80px]">
                 {" "}
-                Innovative <br /> technologies for
-                <br /> Modern Construction
+                Expert <br /> Cleaning for
+                <br />
+                Pristine Spaces :)
               </h1>
             </span>
-            <span className=" flex flex-1 items-center justify-center object-cover">
+            <span className=" flex sm:flex-1 items-center justify-center object-cover">
               <img
-                src={TestImg}
-                className="w-[200px] h-[200px] rounded-full border-2 sm:flex hidden"
+                src={herooImg}
+                className="sm:w-[200px] w-[70px] sm:h-[200px] h-[70px] rounded-full  drop-shadow-2xl   object-cover"
                 alt=""
               />
             </span>
@@ -28,7 +29,7 @@ function Hero() {
           <section className="flex sm:flex-row flex-col">
             <div className=" flex flex-1">
               <img
-                src={TestImg}
+                src={heroImg}
                 className=" w-full rounded-[30px] sm:h-[400px] h-[300px] object-cover"
                 alt=""
               />

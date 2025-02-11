@@ -1,7 +1,10 @@
 import { ExitToApp } from "@mui/icons-material";
 import { Toolbar } from "@mui/material";
 import React from "react";
-
+import BusinessIcon from "@mui/icons-material/Business";
+import HouseIcon from "@mui/icons-material/House";
+import DryCleaningIcon from "@mui/icons-material/DryCleaning";
+import LocationCityIcon from "@mui/icons-material/LocationCity";
 function Service() {
   return (
     <div className=" bg-gray-100 sm:py-[100px] py-[50px]">
@@ -26,15 +29,15 @@ function Service() {
           {/* each box */}
           <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px] bg-blue-700 border-blue-700 ">
             <span className=" border-2 rounded-full p-3 w-fit  bg-white text-blue-700">
-              <ExitToApp />
+              <BusinessIcon />
             </span>
             <article>
               <h2 className=" sm:text-[20px] text-[23px] sm:font-bold font-extrabold sm:leading-[20px] text-white">
-                Building Renovation
+                Office Cleaning
               </h2>
               <p className=" text-white">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-                repellendus cumque
+                Professional office cleaning services for a spotless, and
+                welcoming workspace.
               </p>
             </article>
             <a
@@ -46,15 +49,15 @@ function Service() {
           {/* each box */}
           <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
             <span className=" text-white rounded-full p-3 w-fit  bg-blue-700 border-2 border-blue-700">
-              <ExitToApp />
+              <DryCleaningIcon />
             </span>
             <article>
               <h2 className=" sm:text-[20px] text-[23px] sm:font-bold font-extrabold sm:leading-[20px]">
-                Building Renovation
+                Laundry Service
               </h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-                repellendus cumque
+                Reliable laundry service for fresh, clean clothes, delivered
+                with convenience and care.
               </p>
             </article>
             <a
@@ -66,15 +69,15 @@ function Service() {
           {/* each box */}
           <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
             <span className=" text-white rounded-full p-3 w-fit  bg-blue-700 border-2 border-blue-700">
-              <ExitToApp />
+              <HouseIcon />
             </span>
             <article>
               <h2 className=" sm:text-[20px] text-[23px] sm:font-bold font-extrabold sm:leading-[20px]">
-                Building Renovation
+                Home Cleaning
               </h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-                repellendus cumque
+                Expert home cleaning for a spotless, comfortable, and healthy
+                living environment.
               </p>
             </article>
             <a
@@ -86,15 +89,15 @@ function Service() {
           {/* each box */}
           <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
             <span className=" text-white rounded-full p-3 w-fit  bg-blue-700 border-2 border-blue-700">
-              <ExitToApp />
+              <LocationCityIcon />
             </span>
             <article>
               <h2 className=" sm:text-[20px] text-[23px] sm:font-bold font-extrabold sm:leading-[20px]">
-                Building Renovation
+                Facility management
               </h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-                repellendus cumque
+                Comprehensive facility management ensuring efficient, and
+                well-maintained operations.
               </p>
             </article>
             <a
