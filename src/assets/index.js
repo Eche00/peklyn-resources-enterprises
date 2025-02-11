@@ -9,7 +9,7 @@ import herooImg3 from "./hero3.png";
 import herooImg4 from "./hero4.png";
 import herooImg5 from "./hero5.png";
 
-import aboutImg from "./aboutimg.png";
+import aboutImg from "./aboutImg.png";
 import aboutImg2 from "./aboutimg2.png";
 
 import supportImg from "./supportimg.png";
