@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { TestImg } from "../assets";
+import { TestImg, aboutImg, aboutImg2 } from "../assets";
 import { ArrowBackIosRounded, ArrowDownward } from "@mui/icons-material";
 
 function AboutUs() {
@@ -50,12 +50,12 @@ function AboutUs() {
         <section className=" flex sm:flex-row flex-col sm:gap-0 gap-[70px] pb-[50px]">
           <div className=" flex flex-1 relative">
             <img
-              src={TestImg}
+              src={aboutImg}
               className=" w-[70%]  rounded-[30px] sm:h-[500px] h-[300px] object-cover"
               alt=""
             />
             <img
-              src={TestImg}
+              src={aboutImg2}
               className="absolute  w-[50%] rounded-[30px] h-[70%] border-[15px] border-white object-cover right-0 top-1/2"
               alt=""
             />

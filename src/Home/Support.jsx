@@ -1,5 +1,13 @@
 import React from "react";
-import { TestImg } from "../assets";
+import {
+  TestImg,
+  supportIm1,
+  supportIm2,
+  supportIm3,
+  supportIm4,
+  supportIm5,
+  supportImg,
+} from "../assets";
 import { Link } from "react-router-dom";
 import { Check } from "@mui/icons-material";
 
@@ -13,28 +21,28 @@ function Support() {
         </h1>
         <div className="   h-[80px] relative flex items-center justify-center sm:gap-[20px] gap-[10px]">
           <img
-            src={TestImg}
-            className="w-[60px] h-[60px]  rounded-full "
+            src={supportIm1}
+            className="w-[60px] h-[60px]  rounded-full object-cover "
             alt=""
           />
           <img
-            src={TestImg}
-            className="w-[60px] h-[60px]  rounded-full "
+            src={supportIm2}
+            className="w-[60px] h-[60px]  rounded-full object-cover "
             alt=""
           />
           <img
-            src={TestImg}
-            className="w-[60px] h-[60px]  rounded-full  "
+            src={supportIm3}
+            className="w-[60px] h-[60px]  rounded-full object-cover  "
             alt=""
           />
           <img
-            src={TestImg}
-            className="w-[60px] h-[60px]  rounded-full  "
+            src={supportIm4}
+            className="w-[60px] h-[60px]  rounded-full object-cover  "
             alt=""
           />
           <img
-            src={TestImg}
-            className="w-[60px] h-[60px]  rounded-full  left-[160px]"
+            src={supportIm5}
+            className="w-[60px] h-[60px]  rounded-full object-cover  left-[160px]"
             alt=""
           />
         </div>
@@ -52,7 +60,7 @@ function Support() {
                     <span className=" border-2 bg-blue-700 border-blue-700 text-white rounded-full p-1 flex items-center justify-center">
                       <Check fontSize="" />
                     </span>{" "}
-                    Excellence in evwry detail
+                    Excellence in every detail
                   </li>
                   <li className=" flex items-center gap-[10px]">
                     <span className=" border-2 rounded-full p-1 flex items-center justify-center">
@@ -84,7 +92,7 @@ function Support() {
 
           <div className=" flex flex-1">
             <img
-              src={TestImg}
+              src={supportImg}
               className=" w-full rounded-[30px] sm:h-[400px] h-[300px] object-cover"
               alt=""
             />

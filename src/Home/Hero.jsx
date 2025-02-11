@@ -1,5 +1,14 @@
 import React from "react";
-import { TestImg, heroImg, herooImg } from "../assets";
+import {
+  TestImg,
+  heroImg,
+  herooImg,
+  herooImg1,
+  herooImg2,
+  herooImg3,
+  herooImg4,
+  herooImg5,
+} from "../assets";
 
 function Hero() {
   return (
@@ -37,36 +46,44 @@ function Hero() {
             <div className=" flex flex-1">
               <section className="sm:w-[80%] mx-auto flex flex-col justify-between">
                 <div className="flex flex-col gap-[10px]">
-                  <p className=" sm:text-[25px] text-[18px] sm:px-0 px-[10px] text-gray-700 sm:pt-0 pt-[10px] sm:font-normal font-light">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facere vitae error laboriosam autem placeat, sint corrupti
-                    doloremque fugit nisi saepe inventore vel corporis atque
-                    consequatur libero. Eos pariatur dignissimos reiciendis.
+                  <p className=" sm:text-[22px] text-[16px] sm:px-0 px-[10px] text-gray-700 sm:pt-0 pt-[10px] sm:font-normal font-light">
+                    <b className=" font-extrabold">
+                      PEKLYNRESOURCES ENTERPRISES
+                    </b>{" "}
+                    is an indiginous agency with a class of highly trained and
+                    equipped professionals registred to carry out{" "}
+                    <b className="text-blue-700 italic underline">
+                      cleaning and fugimation services
+                    </b>
+                    <br />
+                    with high degree of professional and ethical values, we
+                    pride ourselves as a reliable and dependable brand in the
+                    business of cleaning, fumigation & decontamination.
                   </p>
                   <ul className="   h-[80px] relative">
                     <img
-                      src={TestImg}
-                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white"
+                      src={herooImg1}
+                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white object-cover"
                       alt=""
                     />
                     <img
-                      src={TestImg}
-                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white left-[40px]"
+                      src={herooImg2}
+                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white left-[40px] object-cover"
                       alt=""
                     />
                     <img
-                      src={TestImg}
-                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white left-[80px]"
+                      src={herooImg3}
+                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white left-[80px] object-cover"
                       alt=""
                     />
                     <img
-                      src={TestImg}
-                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white left-[120px]"
+                      src={herooImg4}
+                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white left-[120px] object-cover"
                       alt=""
                     />
                     <img
-                      src={TestImg}
-                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white left-[160px]"
+                      src={herooImg5}
+                      className="w-[60px] h-[60px]  rounded-full absolute top-0 border-2 border-white left-[160px] object-cover"
                       alt=""
                     />
                   </ul>
@@ -85,21 +102,21 @@ function Hero() {
           {/* sections 3  */}
           <section className="flex items-center py-[30px] sm:w-[70%] mx-auto w-full  justify-between">
             <p className="font-bold  flex flex-col sm:text-4xl text-[20px] items-center ">
-              <b> 500+</b>
+              <b> 100+</b>
               <span className=" sm:text-xl text-[14px] text-gray-700 text-center">
-                Complete works
+                Works Completed
               </span>
             </p>
             <p className="font-bold  flex flex-col sm:text-4xl text-[20px] items-center ">
-              <b> 500+</b>
+              <b> 50+</b>
               <span className=" sm:text-xl text-[14px] text-gray-700 text-center">
-                Complete works
+                Team Members
               </span>
             </p>
             <p className="font-bold  flex flex-col sm:text-4xl text-[20px] items-center ">
-              <b> 500+</b>
+              <b> 60+</b>
               <span className=" sm:text-xl text-[14px] text-gray-700 text-center">
-                Complete works
+                Clients Reviews
               </span>
             </p>
             <p className="font-bold  flex flex-col sm:text-4xl text-[20px] items-center ">
