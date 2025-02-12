@@ -14,8 +14,9 @@ function Footer() {
       <footer className=" flex flex-col w-[95%] mx-auto text-white">
         {/* top section  */}
         <div className=" flex items-center justify-between flex-col sm:flex-row gap-[20px]">
-          <h2 className=" sm:text-[30px] text-[18px] font-extrabold">
-            Lorem ipsum dolor sit amet.
+          <h2 className=" sm:text-[30px] text-[18px] font-extrabold font-serif">
+            to be truly clean, think{" "}
+            <span className=" text-blue-600">Peklyn</span>
           </h2>
           <section className=" bg-white rounded-full p-[5px]">
             <input
@@ -76,9 +77,8 @@ function Footer() {
                   153 Shagari Quarters new Layout, Deidel{" "}
                   <span>FCT, Abuja</span>
                 </li>
-                <li>
-                  (+234) <br className="sm:hidden flex" /> 704 172 9402
-                </li>
+                <li>(+234) 817 927 5757</li>
+
                 <a
                   className=" sm:text-[16px] text-[12px]"
                   href="mailto:echeze00@gmail.com">
@@ -89,15 +89,14 @@ function Footer() {
           </section>
         </div>
         {/* bottom section  */}
-        <div className="py-[20px] flex sm:items-center justify-between">
-          <h2 className=" font-bold text-[14px]  sm:text-start ">
-            © Service name 2025
+        <div className="py-[20px] flex sm:items-center justify-between sm:flex-row flex-col gap-[10px]">
+          <h2 className=" font-bold text-[14px]  sm:text-start  ">
+            © PEKLYNRESOURCES ENTERPRISES 2025
           </h2>
           <section className=" flex items-center sm:justify-end justify-between gap-[20px]">
-            <Link className=" font-bold text-[14px]  sm:flex hidden">
-              Contact support
-            </Link>
-            <Link className=" font-bold text-[14px] ">Contact support</Link>
+            <p className=" font-bold text-[14px] ">
+              Built and published by eche_codes
+            </p>
           </section>
         </div>
       </footer>
