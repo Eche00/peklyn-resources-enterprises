@@ -35,8 +35,9 @@ function Footer() {
               <img src="" alt="" />
             </section>
             <p className="sm:w-[400px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur accusantium quis magnam harum quasi, incidunt culpa.
+              PEKLYNRESOURCES ENTERPRISES is an indiginous agency with a class
+              of highly trained and equipped professionals registred to carry
+              out cleaning and fugimation services
             </p>
             <article className=" flex gap-[10px] list-disc list-inside py-[10px]">
               <span className=" bg-blue-600 p-[7px] rounded-full">
@@ -71,13 +72,18 @@ function Footer() {
               </ul>
               <ul className="flex flex-col gap-[10px] text-[12px] sm:text-[14px]">
                 <b className="text-[16px] font-extrabold pb-[5px]">Contact</b>
-                <li className="flex flex-col">
-                  123 preston Rd <span>Lagos, Nigeria</span>
+                <li className="flex flex-col sm:text-[16px] text-[12px]">
+                  153 Shagari Quarters new Layout, Deidel{" "}
+                  <span>FCT, Abuja</span>
                 </li>
                 <li>
                   (+234) <br className="sm:hidden flex" /> 704 172 9402
                 </li>
-                {/* <a href="mailto:echeze00@gmail.com">echeze00@gmail.com</a> */}
+                <a
+                  className=" sm:text-[16px] text-[12px]"
+                  href="mailto:echeze00@gmail.com">
+                  peklynservice@gmail.com
+                </a>
               </ul>
             </div>
           </section>
