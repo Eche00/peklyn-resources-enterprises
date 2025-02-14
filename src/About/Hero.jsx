@@ -1,6 +1,11 @@
 import React from "react";
 import { TestImg } from "../assets";
-import { ExitToApp } from "@mui/icons-material";
+import {
+  CleaningServicesOutlined,
+  ExitToApp,
+  People,
+  Timelapse,
+} from "@mui/icons-material";
 
 function Hero() {
   return (
@@ -73,7 +78,7 @@ function Hero() {
                   {/* each box */}
                   <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
                     <span className=" border-2 rounded-full p-3 w-fit ">
-                      <ExitToApp />
+                      <People />
                     </span>
                     <article>
                       <h2 className="  text-[16px] sm:font-bold font-extrabold sm:leading-[20px]">
@@ -88,7 +93,7 @@ function Hero() {
                   {/* each box */}
                   <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
                     <span className=" border-2 rounded-full p-3 w-fit ">
-                      <ExitToApp />
+                      <CleaningServicesOutlined />
                     </span>
                     <article>
                       <h2 className="  text-[16px] sm:font-bold font-extrabold sm:leading-[20px]">
@@ -102,7 +107,7 @@ function Hero() {
                   </div>
                   <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
                     <span className=" border-2 rounded-full p-3 w-fit ">
-                      <ExitToApp />
+                      <Timelapse />
                     </span>
                     <article>
                       <h2 className="  text-[16px] sm:font-bold font-extrabold sm:leading-[20px]">

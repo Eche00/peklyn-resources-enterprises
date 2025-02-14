@@ -19,6 +19,8 @@ import supportIm3 from "./supportim3.png";
 import supportIm4 from "./supportim4.png";
 import supportIm5 from "./supportim5.png";
 
+import ServiceImg from "./service.png";
+
 export {
   TestImg,
   google,
@@ -37,4 +39,5 @@ export {
   supportIm3,
   supportIm4,
   supportIm5,
+  ServiceImg,
 };
