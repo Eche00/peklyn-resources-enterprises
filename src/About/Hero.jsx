@@ -1,5 +1,10 @@
 import React from "react";
-import { TestImg } from "../assets";
+import {
+  aboutHeroImg1,
+  aboutHeroImg2,
+  aboutHeroImg3,
+  TestImg,
+} from "../assets";
 import {
   CleaningServicesOutlined,
   ExitToApp,
@@ -15,28 +20,39 @@ function Hero() {
         <div>
           {/* sections  */}
 
-          <section className="flex sm:flex-row flex-col sm:gap-0 gap-[50px]">
+          <section className="flex sm:flex-row flex-col sm:gap-0 gap-[50px] py-[50px]">
             <div className=" flex flex-1 relative">
+              <div className=" w-full rounded-[30px] sm:h-[200px] h-[300px]  bg-gray-100"></div>
+              {/* top left  */}
               <img
-                src={TestImg}
-                className=" w-full rounded-[30px] sm:h-[400px] h-[300px] object-cover"
+                src={aboutHeroImg1}
+                className="absolute  w-[50%] rounded-[30px] h-[70%] border-[15px] border-gray-100 object-cover left-[20px] bottom-1/2 z-50"
                 alt=""
               />
+              {/* top right  */}
               <img
-                src={TestImg}
-                className="absolute  w-[50%] rounded-[30px] h-[70%] border-[15px] border-gray-100 object-cover right-[-20px] top-1/2"
+                src={aboutHeroImg2}
+                className="absolute  sm:w-[40%] w-[40%] rounded-full sm:h-[60%] h-[50%] border-[15px] border-gray-100 object-cover sm:right-[50px] right-[30px] bottom-1/2 z-50 "
                 alt=""
               />
+              {/* bottom left  */}
+              <div className="absolute  w-[50%] sm:rounded-[70px] rounded-[30px] h-[70%] border-[15px] border-gray-100 object-cover left-[-20px] top-1/3 bg-blue-700 shadow-md flex items-center justify-center">
+                {" "}
+                <p className=" m-0 p-0 sm:text-4xl text-2xl font-extrabold font-serif text-white">
+                  2yrs +
+                </p>
+              </div>
+              {/* bottom  right  */}
               <img
-                src={TestImg}
-                className="absolute  w-[50%] rounded-[30px] h-[70%] border-[15px] border-gray-100 object-cover left-[-20px] top-1/2"
+                src={aboutHeroImg3}
+                className="absolute  w-[50%] rounded-[30px] h-[75%] border-[15px] border-gray-100 object-cover right-[20px] top-1/2"
                 alt=""
               />
             </div>
             <div className=" flex flex-1">
               <section className="sm:w-[80%] mx-auto flex flex-col justify-between">
                 <div className="flex flex-col gap-[10px]">
-                  <h1 className=" sm:text-[30px] text-[20px] sm:px-0 px-[10px] text-black sm:pt-0 pt-[10px] font-bold">
+                  <h1 className=" sm:text-[30px] text-[20px] sm:px-0 px-[10px] text-black sm:pt-0 pt-[20px] font-bold">
                     Welcome to our (Make clean)
                   </h1>
                   <span className=" h-1 w-[30%] bg-blue-600 rounded-full"></span>

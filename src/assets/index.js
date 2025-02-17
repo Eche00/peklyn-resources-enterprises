@@ -12,6 +12,10 @@ import herooImg5 from "./hero5.png";
 import aboutImg from "./aboutImg.png";
 import aboutImg2 from "./aboutimg2.png";
 
+import aboutHeroImg1 from "./abthero1.png";
+import aboutHeroImg2 from "./abthero2.png";
+import aboutHeroImg3 from "./abthero3.png";
+
 import supportImg from "./supportimg.png";
 import supportIm1 from "./supportim1.png";
 import supportIm2 from "./supportim2.png";
@@ -40,4 +44,7 @@ export {
   supportIm4,
   supportIm5,
   ServiceImg,
+  aboutHeroImg1,
+  aboutHeroImg2,
+  aboutHeroImg3,
 };
