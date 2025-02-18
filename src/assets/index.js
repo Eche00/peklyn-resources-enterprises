@@ -31,6 +31,14 @@ import supportIm5 from "./supportim5.png";
 
 import ServiceImg from "./service.png";
 
+import whyImg1 from "./whyimg1.png";
+import whyImg2 from "./whyimg2.png";
+import whyImg3 from "./whyimg3.png";
+import whyImg4 from "./whyimg4.png";
+import whyImg5 from "./whyimg5.png";
+import whyImg6 from "./whyimg6.png";
+import whyImg7 from "./whyimg7.png";
+
 export {
   TestImg,
   google,
@@ -58,4 +66,11 @@ export {
   cleanImg3,
   cleanImg4,
   cleanImg5,
+  whyImg1,
+  whyImg2,
+  whyImg3,
+  whyImg4,
+  whyImg5,
+  whyImg6,
+  whyImg7,
 };
