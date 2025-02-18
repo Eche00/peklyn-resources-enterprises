@@ -16,6 +16,12 @@ import aboutHeroImg1 from "./abthero1.png";
 import aboutHeroImg2 from "./abthero2.png";
 import aboutHeroImg3 from "./abthero3.png";
 
+import cleanImg1 from "./clean1.png";
+import cleanImg2 from "./clean2.png";
+import cleanImg3 from "./clean3.png";
+import cleanImg4 from "./clean4.png";
+import cleanImg5 from "./clean5.png";
+
 import supportImg from "./supportimg.png";
 import supportIm1 from "./supportim1.png";
 import supportIm2 from "./supportim2.png";
@@ -47,4 +53,9 @@ export {
   aboutHeroImg1,
   aboutHeroImg2,
   aboutHeroImg3,
+  cleanImg1,
+  cleanImg2,
+  cleanImg3,
+  cleanImg4,
+  cleanImg5,
 };
