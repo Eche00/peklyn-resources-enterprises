@@ -38,7 +38,7 @@ function WhyChooseUs() {
               <section className="sm:w-[80%] w-full mx-auto flex flex-col justify-between sm:gap-0 gap-[20px]">
                 <div className="flex flex-col gap-[10px] sm:items-start items-center">
                   <p className="text-blue-700 italic underline text-[16px] font-bold py-2">
-                    <SanitizerIcon /> Solution to your Health !
+                    <SanitizerIcon /> Solution to your Health !!
                   </p>
                   <ul className="   h-[80px] relative w-full">
                     <img
