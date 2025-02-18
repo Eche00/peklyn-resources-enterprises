@@ -2,7 +2,7 @@ import React from "react";
 import AboutUs from "../Home/AboutUs";
 import Hero from "../About/Hero";
 import ContactUs from "../Home/ContactUs";
-import WhyChooseUs from "../About/whyChooseUs";
+import ChooseUs from "../About/ChooseUs";
 
 function About() {
   return (
@@ -10,7 +10,7 @@ function About() {
       <section>
         <Hero />
         <AboutUs />
-        <WhyChooseUs />
+        <ChooseUs />
         <ContactUs />
       </section>
     </div>

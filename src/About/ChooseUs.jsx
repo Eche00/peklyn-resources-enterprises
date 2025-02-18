@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  heroImg,
   whyImg1,
   whyImg2,
   whyImg3,
@@ -14,7 +13,7 @@ import Diversity2Icon from "@mui/icons-material/Diversity2";
 import DiscountIcon from "@mui/icons-material/Discount";
 import TagFacesIcon from "@mui/icons-material/TagFaces";
 
-function WhyChooseUs() {
+function ChooseUs() {
   return (
     <div className=" bg-gray-200 py-[100px]">
       <div className=" w-[95%] mx-auto ">
@@ -38,7 +37,7 @@ function WhyChooseUs() {
               <section className="sm:w-[80%] w-full mx-auto flex flex-col justify-between sm:gap-0 gap-[20px]">
                 <div className="flex flex-col gap-[10px] sm:items-start items-center">
                   <p className="text-blue-700 italic underline text-[16px] font-bold py-2">
-                    <SanitizerIcon /> Solution to your Health !!
+                    <SanitizerIcon /> Solution to your Health !
                   </p>
                   <ul className="   h-[80px] relative w-full">
                     <img
@@ -111,4 +110,4 @@ function WhyChooseUs() {
   );
 }
 
-export default WhyChooseUs;
+export default ChooseUs;
