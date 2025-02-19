@@ -8,6 +8,7 @@ import {
   herooImg4,
   herooImg5,
 } from "../assets";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
@@ -17,24 +18,39 @@ function Hero() {
         <div>
           {/* sections  */}
           <section className=" flex sm:items-center justify-between   sm:py-[50px] pb-[30px]">
-            <span className=" flex flex-1">
+            <motion.span
+              initial={{ x: -50, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" flex flex-1">
               <h1 className=" sm:text-[70px] text-[25px] sm:font-bold font-extrabold sm:leading-[80px]">
                 {" "}
                 Expert <br /> Cleaning for
                 <br />
                 Pristine Spaces :)
               </h1>
-            </span>
-            <span className=" flex sm:flex-1 items-center justify-center object-cover">
+            </motion.span>
+            <motion.span
+              initial={{ x: 50, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" flex sm:flex-1 items-center justify-center object-cover">
               <img
                 src={herooImg}
                 className="sm:w-[200px] w-[70px] sm:h-[200px] h-[70px] rounded-full  drop-shadow-2xl   object-cover"
                 alt=""
               />
-            </span>
+            </motion.span>
           </section>
           {/* sections 2  */}
-          <section className="flex sm:flex-row flex-col">
+          <motion.section
+            initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.25, duration: 1 }}
+            viewport={{ once: true }}
+            className="flex sm:flex-row flex-col">
             <div className=" flex flex-1">
               <img
                 src={heroImg}
@@ -97,9 +113,14 @@ function Hero() {
                 </div>
               </section>
             </div>
-          </section>
+          </motion.section>
           {/* sections 3  */}
-          <section className="flex items-center py-[30px] sm:w-[70%] mx-auto w-full  justify-between">
+          <motion.section
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.45, duration: 1 }}
+            viewport={{ once: true }}
+            className="flex items-center py-[30px] sm:w-[70%] mx-auto w-full  justify-between">
             <p className="font-bold  flex flex-col sm:text-4xl text-[20px] items-center ">
               <b> 100+</b>
               <span className=" sm:text-xl text-[14px] text-gray-700 text-center">
@@ -124,7 +145,7 @@ function Hero() {
                 Complete works
               </span>
             </p>
-          </section>
+          </motion.section>
         </div>
       </div>
     </div>

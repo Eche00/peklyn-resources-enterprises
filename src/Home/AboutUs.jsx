@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { aboutImg, aboutImg2 } from "../assets";
+import { motion } from "framer-motion";
 
 function AboutUs() {
   const [vision, setVision] = useState(false);
@@ -47,7 +48,12 @@ function AboutUs() {
         </section>
         {/* section 2  */}
         <section className=" flex sm:flex-row flex-col sm:gap-0 gap-[70px] pb-[50px]">
-          <div className=" flex flex-1 relative">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.15, duration: 1 }}
+            viewport={{ once: true }}
+            className=" flex flex-1 relative">
             <img
               src={aboutImg}
               className=" w-[70%]  rounded-[30px] sm:h-[500px] h-[300px] object-cover"
@@ -58,7 +64,7 @@ function AboutUs() {
               className="absolute  w-[50%] rounded-[30px] h-[70%] border-[15px] border-white object-cover right-0 top-1/2"
               alt=""
             />
-          </div>
+          </motion.div>
           <div className=" flex flex-1 flex-col gap-[20px]">
             {/* each column  */}
             <section className=" bg-gray-100 p-[20px] rounded-[20px] flex flex-col gap-[10px]">

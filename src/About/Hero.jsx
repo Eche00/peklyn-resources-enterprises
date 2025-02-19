@@ -16,6 +16,7 @@ import {
   People,
   Timelapse,
 } from "@mui/icons-material";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
@@ -26,7 +27,12 @@ function Hero() {
           {/* sections  */}
 
           <section className="flex sm:flex-row flex-col sm:gap-0 gap-[50px] py-[50px]">
-            <div className=" flex flex-1 relative">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" flex flex-1 relative">
               <div className=" w-full rounded-[30px] sm:h-[200px] h-[300px]  bg-gray-100"></div>
               {/* top left  */}
               <img
@@ -53,8 +59,13 @@ function Hero() {
                 className="absolute  w-[50%] rounded-[30px] h-[70%] border-[15px] border-gray-100 object-cover right-[20px] top-1/2"
                 alt=""
               />
-            </div>
-            <div className=" flex flex-1">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.45, duration: 1 }}
+              viewport={{ once: true }}
+              className=" flex flex-1">
               <section className="sm:w-[80%] mx-auto flex flex-col justify-between">
                 <div className="flex flex-col gap-[10px]">
                   <h1 className=" sm:text-[30px] text-[18px] sm:px-0 px-[10px] text-black sm:pt-0 pt-[20px] font-bold">
@@ -147,7 +158,7 @@ function Hero() {
                   </div>
                 </section>
               </section>
-            </div>
+            </motion.div>
           </section>
         </div>
       </div>
