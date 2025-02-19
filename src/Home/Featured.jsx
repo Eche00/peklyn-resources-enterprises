@@ -1,17 +1,18 @@
 import { GitHub, Instagram, LinkOutlined } from "@mui/icons-material";
 import React from "react";
 import { TestImg } from "../assets";
+import { motion } from "framer-motion";
 
 function Featured() {
   return (
-    <div className="  sm:py-[100px] py-[50px]  bg-[linear-gradient(to_right,#4f4f4f0e_0.8px,transparent_0.1px),linear-gradient(to_bottom,#4f4f4f0e_0.8px,transparent_0.1px)] md:bg-[size:104px_104px] bg-[size:50px_50px]  [mask-image:radial-gradient(ellipse_100%_70%_at_50%_100%,#000_70%,transparent_[200%])] ">
+    <div className="  sm:py-[100px] py-[50px]  bg-gray-200 ">
       {/* container  */}
       <div className=" w-[95%] mx-auto flex flex-col gap-[50px]">
         {/* sections  */}
         <section className=" flex items-start justify-between">
           <div className=" flex flex-col gap-[10px]">
             <h1 className=" sm:text-[50px] text-[23px] sm:font-bold font-extrabold sm:leading-[50px]">
-              Our Founders
+              Our Founder
             </h1>
             <p className=" sm:text-[18px] text-sm font-light sm:leading-[20px]">
               We provide customized construction solutions designed to meet your
@@ -29,180 +30,38 @@ function Featured() {
           </button>
         </section>
         {/* another section  */}
-        <section className=" sm:w-full mx-auto w-[90%] flex sm:flex-row flex-col gap-[20px]">
-          {/*founder*/}
-          <div className=" flex flex-col shadow-md hover:shadow-lg  translate-shadow overflow-hidden  rounded-lg w-full sm:w-[330px] ">
-            <img
-              className=" h-[320px] sm:h-[220px] w-full object-cover hover:scale-[105%] translate-scale duration-300"
-              src={TestImg}
-              alt=""
-            />
-            <div className=" p-2">
-              <div className=" py-3 flex flex-col gap-2 ">
-                <h2 className=" text-lg font-bold text-slate-700 truncate">
-                  𝕏 Eche_codes
-                </h2>
-                <p className=" text-sm font-semibold text-slate-700  font-sans">
-                  Front end Developer with a taste of Back end, HTML, CSS, JS,
-                  REACT, TAILWIND, FIREBASE, NODE.JS
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 1 }}
+          viewport={{ once: true }}
+          className=" flex sm:flex-row flex-col-reverse max-w-[80%] mx-auto  py-20">
+          <section className=" flex-1 flex flex-col justify-center items-center ">
+            <div className="sm:w-[80%] mx-auto">
+              <h2 className=" text-[17.5px] font-sans  ">
+                The level of focus and satisfaction we provide here at
+                PEKLYNRESOURCES ENTERPRISES is exceptional. Join us in our
+                spectacular journey to make the World a Clean and Healthy place.
+              </h2>
+              <div className=" w-[30%] h-[1px] bg-white rounded-full my-5"></div>
+              <div className="">
+                <p className=" text-sm font-bold">Kalu Treasure. C.</p>
+                <p className=" font-light">
+                  Founder PEKLYNRESOURCES ENTERPRISES
                 </p>
               </div>
-              <ul className=" text-xs text-white bg-blue-700 p-2 rounded-md font-semibold flex items-center justify-between gap-4">
-                <li className=" text-xl">
-                  <a href="https://x.com/Eche_codes?t=Wab7izpdS7-ewMqBV6TsVA&s=09">
-                    𝕏
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/Eche00">
-                    <GitHub fontSize="small" />
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="https://portfolio-two-liard-34.vercel.app/">
-                    <LinkOutlined fontSize="small" />
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="https://www.instagram.com/xeche_codes?igsh=dHdhdm80MWRsdTd2">
-                    <Instagram fontSize="small" />
-                  </a>
-                </li>
-              </ul>
             </div>
-          </div>
-          {/*founder*/}
-          <div className=" flex flex-col shadow-md hover:shadow-lg  translate-shadow overflow-hidden  rounded-lg w-full sm:w-[330px] ">
-            <img
-              className=" h-[320px] sm:h-[220px] w-full object-cover hover:scale-[105%] translate-scale duration-300"
-              src={TestImg}
-              alt=""
-            />
-            <div className=" p-2">
-              <div className=" py-3 flex flex-col gap-2 ">
-                <h2 className=" text-lg font-bold text-slate-700 truncate">
-                  𝕏 Eche_codes
-                </h2>
-                <p className=" text-sm font-semibold text-slate-700  font-sans">
-                  Front end Developer with a taste of Back end, HTML, CSS, JS,
-                  REACT, TAILWIND, FIREBASE, NODE.JS
-                </p>
-              </div>
-              <ul className=" text-xs text-white bg-blue-700 p-2 rounded-md font-semibold flex items-center justify-between gap-4">
-                <li className=" text-xl">
-                  <a href="https://x.com/Eche_codes?t=Wab7izpdS7-ewMqBV6TsVA&s=09">
-                    𝕏
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/Eche00">
-                    <GitHub fontSize="small" />
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="https://portfolio-two-liard-34.vercel.app/">
-                    <LinkOutlined fontSize="small" />
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="https://www.instagram.com/xeche_codes?igsh=dHdhdm80MWRsdTd2">
-                    <Instagram fontSize="small" />
-                  </a>
-                </li>
-              </ul>
+          </section>
+          <section className=" flex-1 flex items-center justify-center">
+            <div>
+              <img
+                className=" w-[200px] h-[200px] object-cover rounded-full"
+                src={TestImg}
+                alt=""
+              />
             </div>
-          </div>
-          {/*founder*/}
-          <div className=" flex flex-col shadow-md hover:shadow-lg  translate-shadow overflow-hidden  rounded-lg w-full sm:w-[330px] ">
-            <img
-              className=" h-[320px] sm:h-[220px] w-full object-cover hover:scale-[105%] translate-scale duration-300"
-              src={TestImg}
-              alt=""
-            />
-            <div className=" p-2">
-              <div className=" py-3 flex flex-col gap-2 ">
-                <h2 className=" text-lg font-bold text-slate-700 truncate">
-                  𝕏 Eche_codes
-                </h2>
-                <p className=" text-sm font-semibold text-slate-700  font-sans">
-                  Front end Developer with a taste of Back end, HTML, CSS, JS,
-                  REACT, TAILWIND, FIREBASE, NODE.JS
-                </p>
-              </div>
-              <ul className=" text-xs text-white bg-blue-700 p-2 rounded-md font-semibold flex items-center justify-between gap-4">
-                <li className=" text-xl">
-                  <a href="https://x.com/Eche_codes?t=Wab7izpdS7-ewMqBV6TsVA&s=09">
-                    𝕏
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/Eche00">
-                    <GitHub fontSize="small" />
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="https://portfolio-two-liard-34.vercel.app/">
-                    <LinkOutlined fontSize="small" />
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="https://www.instagram.com/xeche_codes?igsh=dHdhdm80MWRsdTd2">
-                    <Instagram fontSize="small" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/*founder*/}
-          <div className=" flex flex-col shadow-md hover:shadow-lg  translate-shadow overflow-hidden  rounded-lg w-full sm:w-[330px] ">
-            <img
-              className=" h-[320px] sm:h-[220px] w-full object-cover hover:scale-[105%] translate-scale duration-300"
-              src={TestImg}
-              alt=""
-            />
-            <div className=" p-2">
-              <div className=" py-3 flex flex-col gap-2 ">
-                <h2 className=" text-lg font-bold text-slate-700 truncate">
-                  𝕏 Eche_codes
-                </h2>
-                <p className=" text-sm font-semibold text-slate-700  font-sans">
-                  Front end Developer with a taste of Back end, HTML, CSS, JS,
-                  REACT, TAILWIND, FIREBASE, NODE.JS
-                </p>
-              </div>
-              <ul className=" text-xs text-white bg-blue-700 p-2 rounded-md font-semibold flex items-center justify-between gap-4">
-                <li className=" text-xl">
-                  <a href="https://x.com/Eche_codes?t=Wab7izpdS7-ewMqBV6TsVA&s=09">
-                    𝕏
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/Eche00">
-                    <GitHub fontSize="small" />
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="https://portfolio-two-liard-34.vercel.app/">
-                    <LinkOutlined fontSize="small" />
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="https://www.instagram.com/xeche_codes?igsh=dHdhdm80MWRsdTd2">
-                    <Instagram fontSize="small" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
+          </section>
+        </motion.div>
       </div>
     </div>
   );

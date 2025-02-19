@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  ServiceImg,
-  heroImg,
-  herooImg,
-  herooImg1,
-  herooImg2,
-  herooImg3,
-  herooImg4,
-  herooImg5,
-} from "../assets";
+import { ServiceImg, herooImg } from "../assets";
 import { Check, ExitToApp } from "@mui/icons-material";
 
 function Hero() {
