@@ -1,6 +1,7 @@
 import { Close, Home } from "@mui/icons-material";
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { Logo } from "../assets";
 
 function Header() {
   const [nav, setNav] = useState(false);
@@ -9,8 +10,12 @@ function Header() {
       {/* Container  */}
       <div className=" w-[95%] mx-auto flex items-center justify-between sm:py-[20px] py-[10px]">
         {/* first section  */}
-        <section className=" w-[150px] bg-blue-700 h-[40px]">
-          <img src="" alt="" />
+        <section className=" w-[150px] bg-blue-700 object-cover overflow-hidden">
+          <img
+            className=" h-[60px] w-full object-cover border-none"
+            src={Logo}
+            alt=""
+          />
         </section>
 
         {/* second section  */}

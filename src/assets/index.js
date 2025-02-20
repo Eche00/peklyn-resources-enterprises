@@ -39,6 +39,8 @@ import whyImg5 from "./whyimg5.png";
 import whyImg6 from "./whyimg6.png";
 import whyImg7 from "./whyimg7.png";
 
+import Logo from "./logoM.png";
+
 export {
   TestImg,
   google,
@@ -73,4 +75,5 @@ export {
   whyImg5,
   whyImg6,
   whyImg7,
+  Logo,
 };
