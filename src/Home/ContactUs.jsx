@@ -1,3 +1,4 @@
+import { WhatsApp } from "@mui/icons-material";
 import React from "react";
 
 function ContactUs() {
@@ -97,7 +98,7 @@ function ContactUs() {
                   Mon-Fri from 8am to 5pm
                 </p>
                 <p className=" text-[18px] font-[600] underline">
-                  +234 902 366 7623
+                  (+234) 817 927 5757
                 </p>
               </section>
             </div>
@@ -111,11 +112,13 @@ function ContactUs() {
                     Chat to support
                   </span>{" "}
                   <br />
-                  Chat to our support team
+                  Chat to our team
                 </p>
-                <p className=" text-[18px] font-[600] underline">
-                  info@ziontechub.com
-                </p>
+                <a
+                  href="mailto:peklynservice@gmail.com"
+                  className=" text-[18px] font-[600] underline">
+                  peklynservice@gmail.com
+                </a>
               </section>
             </div>
             {/* count  */}
@@ -132,22 +135,22 @@ function ContactUs() {
                   Chat to our sales team
                 </p>
                 <p className=" text-[18px] font-[600] underline">
-                  info.sales@ziontechub.com
+                  peklynservice@gmail.com
                 </p>
               </section>
             </div>
             {/* count  */}
             <div className=" py-[25px] px-[40px] flex flex-col gap-[48px]  shadow-md shadow-[#1A1A1A33] rounded-[10px]   bg-white md:w-fit w-[90%] ">
-              <span className=" p-[10px] rounded-[5px]   bg-gray-100 w-fit">
-                {linkedln}
+              <span className=" p-[10px] rounded-[5px]   bg-gray-100 w-fit text-blue-700 ">
+                <WhatsApp />
               </span>
               <section className="text-black flex flex-col gap-[24px] ">
                 <p className=" text-[18px] font-[200]  pr-[35px]">
                   <span className=" text-[24px] font-[600] ">
-                    Chat on LinkedIn
+                    Chat on WhatsApp
                   </span>{" "}
                   <br />
-                  Chat to us on LinkedIn
+                  Chat to us on WhatsApp
                 </p>
                 <a
                   href="https://www.linkedin.com/company/zion-tech-hub/?viewAsMember=true"

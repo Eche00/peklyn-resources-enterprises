@@ -6,6 +6,7 @@ import {
 } from "@mui/icons-material";
 import React from "react";
 import { Link } from "react-router-dom";
+import { Logo } from "../assets";
 
 function Footer() {
   return (
@@ -32,8 +33,12 @@ function Footer() {
         {/* middle section  */}
         <div className=" flex py-[20px] sm:flex-row flex-col justify-between border-b-2 border-gray-300">
           <section className="flex flex-col flex-1 ">
-            <section className=" w-[150px] bg-white h-[40px] my-[10px]">
-              <img src="" alt="" />
+            <section className=" w-[150px] bg-blue-700 object-cover overflow-hidden">
+              <img
+                className=" h-[60px] w-full object-cover border-none"
+                src={Logo}
+                alt=""
+              />
             </section>
             <p className="sm:w-[400px]">
               PEKLYNRESOURCES ENTERPRISES is an indiginous agency with a class
