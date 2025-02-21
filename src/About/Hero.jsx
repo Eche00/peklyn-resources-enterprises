@@ -113,7 +113,7 @@ function Hero() {
                 </div>
                 <section className=" flex sm:flex-row flex-col gap-[10px]">
                   {/* each box */}
-                  <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
+                  <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px] border-blue-700 text-blue-700">
                     <span className=" border-2 rounded-full p-3 w-fit ">
                       <People />
                     </span>
@@ -122,13 +122,13 @@ function Hero() {
                         HIGHLY-TRAINED STAFF
                       </h2>
                       <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Natus repellendus cumque
+                        Our team is made up of skilled experts dedicated to
+                        deliver exceptional services.
                       </p>
                     </article>
                   </div>
                   {/* each box */}
-                  <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
+                  <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px] border-blue-700 text-blue-700">
                     <span className=" border-2 rounded-full p-3 w-fit ">
                       <CleaningServicesOutlined />
                     </span>
@@ -137,12 +137,12 @@ function Hero() {
                         QUALITY CLEANING TOOLS
                       </h2>
                       <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Natus repellendus cumque
+                        We use the best cleaning tools to ensure a deep and
+                        efficient clean.
                       </p>
                     </article>
                   </div>
-                  <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px]">
+                  <div className="border-2 rounded-[20px] flex flex-1 p-[20px]  flex-col gap-[30px] border-blue-700 text-blue-700">
                     <span className=" border-2 rounded-full p-3 w-fit ">
                       <Timelapse />
                     </span>
@@ -151,8 +151,8 @@ function Hero() {
                         FAST & EFFECTIVE SERVICE
                       </h2>
                       <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Natus repellendus cumque
+                        We deliver fast, efficient cleaning without compromising
+                        quality.
                       </p>
                     </article>
                   </div>

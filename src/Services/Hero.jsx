@@ -1,6 +1,13 @@
 import React from "react";
 import { ServiceImg, herooImg } from "../assets";
-import { Check, ExitToApp } from "@mui/icons-material";
+import {
+  Check,
+  ExitToApp,
+  Hail,
+  LocalLaundryService,
+  RocketLaunch,
+} from "@mui/icons-material";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
@@ -11,7 +18,12 @@ function Hero() {
           {/* sections  */}
 
           <section className="flex sm:flex-row flex-col sm:gap-0 gap-[50px]">
-            <div className=" flex flex-1 relative ">
+            <motion.div
+              initial={{ x: -50, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" flex flex-1 relative ">
               <img
                 src={ServiceImg}
                 className=" w-[70%]  rounded-tl-[50px] rounded-bl-[50px] sm:h-[400px] h-[300px] object-cover object-left"
@@ -22,8 +34,13 @@ function Hero() {
                 className="w-[200px]  h-[200px]  rounded-full  drop-shadow-2xl   object-cover absolute top-1/2  right-0 border-5 border-white"
                 alt=""
               />
-            </div>
-            <div className=" flex flex-1">
+            </motion.div>
+            <motion.div
+              initial={{ x: 50, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" flex flex-1">
               <section className="sm:w-[80%] mx-auto flex flex-col justify-between">
                 <div className="flex flex-col gap-[10px]">
                   <p className=" sm:text-[22px] text-[16px] sm:px-0 px-[10px] text-gray-700 sm:pt-0 pt-[10px] sm:font-normal font-light">
@@ -75,42 +92,57 @@ function Hero() {
                   </button>
                 </div>
               </section>
-            </div>
+            </motion.div>
           </section>
           {/* sections 2  */}
           <section className=" flex sm:flex-row flex-col gap-[10px] pt-[50px] sm:pb-0 pb-[50px]  items-center justify-between sm:w-[70%] w-full mx-auto">
             {/* each box */}
-            <div className="border-2 rounded-[20px] flex sm:flex-col p-[20px]  flex-row sm:items-start items-center gap-[20px] flex-1">
-              <span className=" border-2 rounded-full p-3 w-fit ">
-                <ExitToApp />
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className="border-2 rounded-[20px] flex sm:flex-col p-[20px]  flex-row sm:items-start items-center gap-[20px] flex-1 border-blue-700 text-blue-700">
+              <span className=" border-2 rounded-full p-3 w-fit  text-blue-700">
+                <Hail />
               </span>
               <article>
                 <h2 className="  text-[16px] sm:font-bold font-extrabold sm:leading-[20px] ">
                   HIGHLY-TRAINED STAFF
                 </h2>
               </article>
-            </div>
+            </motion.div>
             {/* each box */}
-            <div className="border-2 rounded-[20px] flex sm:flex-col p-[20px]  flex-row sm:items-start items-center gap-[20px] flex-1">
-              <span className=" border-2 rounded-full p-3 w-fit ">
-                <ExitToApp />
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.45, duration: 1 }}
+              viewport={{ once: true }}
+              className="border-2 rounded-[20px] flex sm:flex-col p-[20px]  flex-row sm:items-start items-center gap-[20px] flex-1 border-blue-700 text-blue-700">
+              <span className=" border-2 rounded-full p-3 w-fit  text-blue-700">
+                <LocalLaundryService />
               </span>
               <article>
                 <h2 className="  text-[16px] sm:font-bold font-extrabold sm:leading-[20px] ">
                   QUALITY CLEANING TOOLS
                 </h2>
               </article>
-            </div>
-            <div className="border-2 rounded-[20px] flex sm:flex-col p-[20px]  flex-row sm:items-start items-center gap-[20px] flex-1">
-              <span className=" border-2 rounded-full p-3 w-fit ">
-                <ExitToApp />
+            </motion.div>
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 1, duration: 1 }}
+              viewport={{ once: true }}
+              className="border-2 rounded-[20px] flex sm:flex-col p-[20px]  flex-row sm:items-start items-center gap-[20px] flex-1 border-blue-700 text-blue-700">
+              <span className=" border-2 rounded-full p-3 w-fit  text-blue-700">
+                <RocketLaunch />
               </span>
               <article>
                 <h2 className="  text-[16px] sm:font-bold font-extrabold sm:leading-[20px] ">
                   FAST & EFFECTIVE SERVICE
                 </h2>
               </article>
-            </div>
+            </motion.div>
           </section>
         </div>
       </div>
