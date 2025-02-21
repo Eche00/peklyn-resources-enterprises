@@ -72,8 +72,8 @@ function BookNow() {
                 Book us a now
               </h1>
               <p className=" md:text-[16px] text-[12px] font-[300] ">
-                Hey 👋 Send us a message on Whatsapp to process <br /> your
-                Booking. to be truly clean, think Peklyn!
+                message us on Whatsapp to process <br /> your Booking. to be
+                truly clean, think Peklyn!
               </p>
             </section>
 
