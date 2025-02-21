@@ -176,8 +176,8 @@ function BookNow() {
                     Please select a State
                   </p>
                 )}
-                <button className="py-[18px] px-[16px] rounded-[10px] text-white bg-[#207C3F] mt-[14px] cursor-not-allowed">
-                  Say Hi
+                <button className="py-[18px] px-[16px] rounded-[10px] text-white bg-blue-700 mt-[14px] cursor-pointer font-extrabold">
+                  Book Now
                 </button>
               </section>
             </form>
