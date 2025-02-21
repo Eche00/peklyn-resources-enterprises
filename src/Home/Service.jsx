@@ -4,8 +4,10 @@ import HouseIcon from "@mui/icons-material/House";
 import DryCleaningIcon from "@mui/icons-material/DryCleaning";
 import LocationCityIcon from "@mui/icons-material/LocationCity";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
 function Service() {
+  const location = useLocation();
   return (
     <div className=" bg-gray-100 sm:py-[100px] py-[50px]">
       {/* container  */}
@@ -45,11 +47,19 @@ function Service() {
                 welcoming workspace.
               </p>
             </article>
-            <Link
-              to="services"
-              className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px]  text-white">
-              Learn more
-            </Link>
+            {location.pathname === "/services" ? (
+              <Link
+                to="/book"
+                className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px]  text-white">
+                Book now
+              </Link>
+            ) : (
+              <Link
+                to="/services"
+                className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px]  text-white">
+                Learn more
+              </Link>
+            )}
           </motion.div>
           {/* each box */}
           <motion.div
@@ -70,11 +80,19 @@ function Service() {
                 with convenience and care.
               </p>
             </article>
-            <Link
-              to="/services"
-              className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
-              Learn more
-            </Link>
+            {location.pathname === "/services" ? (
+              <Link
+                to="/book"
+                className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
+                Book now
+              </Link>
+            ) : (
+              <Link
+                to="/services"
+                className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
+                Learn more
+              </Link>
+            )}
           </motion.div>
           {/* each box */}
           <motion.div
@@ -95,11 +113,19 @@ function Service() {
                 living environment.
               </p>
             </article>
-            <Link
-              to="/services"
-              className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
-              Learn more
-            </Link>
+            {location.pathname === "/services" ? (
+              <Link
+                to="/book"
+                className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
+                Book now
+              </Link>
+            ) : (
+              <Link
+                to="/services"
+                className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
+                Learn more
+              </Link>
+            )}
           </motion.div>
           {/* each box */}
           <motion.div
@@ -120,11 +146,19 @@ function Service() {
                 well-maintained operations.
               </p>
             </article>
-            <Link
-              to="/services"
-              className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
-              Learn more
-            </Link>
+            {location.pathname === "/services" ? (
+              <Link
+                to="/book"
+                className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
+                Book now
+              </Link>
+            ) : (
+              <Link
+                to="/services"
+                className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
+                Learn more
+              </Link>
+            )}
           </motion.div>
         </section>
       </div>
