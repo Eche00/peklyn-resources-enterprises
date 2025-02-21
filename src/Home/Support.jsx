@@ -49,9 +49,10 @@ function Support() {
             <section className="sm:w-[80%] flex flex-col justify-between gap-[10px]">
               <div className="flex flex-col gap-[10px]">
                 <p className=" sm:text-[20px] text-[16px] sm:px-0 px-[10px] text-gray-700 sm:pt-0 pt-[10px] sm:font-normal font-light">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere vitae error laboriosam autem placeat, sint corrupti
-                  doloremque fugit nis.
+                  We’re committed to providing top-quality cleaning services and
+                  ensuring your satisfaction. If you have any questions, need
+                  assistance, or would like to share feedback, don’t hesitate to
+                  reach out. We're here to help!
                 </p>
                 <ul className="flex flex-col sm:gap-[10px] gap-[5px] sm:px-0 px-[10px]  sm:text-[22px] text-[16px text-gray-700">
                   <li className=" flex items-center gap-[10px]">
@@ -81,9 +82,11 @@ function Support() {
                 </ul>
               </div>
               <div className="flex items-center  gap-[20px] sm:py-0 py-5 my-0 sm:my-10">
-                <button className=" bg-blue-700 border-blue-700 sm:py-4 py-2 sm:px-32 px-20 rounded-full font-bold text-[16px] text-white w-fit">
+                <a
+                  href="tel:+2348179275757"
+                  className=" bg-blue-700 border-blue-700 sm:py-4 py-2 sm:px-32 px-20 rounded-full font-bold text-[16px] text-white w-fit text-center">
                   Call us
-                </button>
+                </a>
               </div>
             </section>
           </div>

@@ -97,9 +97,11 @@ function ContactUs() {
                   <br />
                   Mon-Fri from 8am to 5pm
                 </p>
-                <p className=" text-[18px] font-[600] underline">
+                <a
+                  href="tel:+2348179275757"
+                  className=" text-[18px] font-[600] underline">
                   (+234) 817 927 5757
-                </p>
+                </a>
               </section>
             </div>
             <div className=" py-[25px] px-[40px] flex flex-col gap-[48px]  shadow-md shadow-[#1A1A1A33] rounded-[10px]   bg-white md:w-fit w-[90%] ">

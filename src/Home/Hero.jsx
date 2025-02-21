@@ -9,6 +9,7 @@ import {
   herooImg5,
 } from "../assets";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -104,12 +105,16 @@ function Hero() {
                   </ul>
                 </div>
                 <div className="flex items-center sm:gap-[50px] gap-[20px]">
-                  <button className=" bg-blue-700 py-4 rounded-full font-bold text-[16px] text-white w-full">
+                  <Link
+                    to="/book"
+                    className=" bg-blue-700 py-4 rounded-full font-bold text-[16px] text-white w-full text-center">
                     Book now
-                  </button>
-                  <button className=" border-2 border-blue-700 text-blue-700  py-4 rounded-full font-bold text-[16px]  w-full">
+                  </Link>
+                  <a
+                    href="tel:+2348179275757"
+                    className=" border-2 border-blue-700 text-blue-700  py-4 rounded-full font-bold text-[16px]  w-full text-center">
                     Call us
-                  </button>
+                  </a>
                 </div>
               </section>
             </div>
