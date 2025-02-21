@@ -69,20 +69,21 @@ function AboutUs() {
             {/* each column  */}
             <section className=" bg-gray-100 p-[20px] rounded-[20px] flex flex-col gap-[10px]">
               <h2 className=" sm:text-[35px] text-[23px] sm:font-bold font-extrabold sm:leading-[35px] text-black">
-                Building Renovation
+                About Us
               </h2>
               <p className=" text-gray-800 ">
-                <b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing elit.
-                Aspernatur voluptatem consequatur dolor provident expedita,
-                dignissimos consequuntur, quibusdam accusamus hic dolore fuga
-                veritatis fugit velit, obcaecati at. Nam necessitatibus qui
-                vitae.
+                <b>At PEKLYNRESOURCES ENTERPRISES,</b> we are dedicated to
+                delivering excellence in everything we do. With a strong
+                commitment to quality, innovation, and customer satisfaction, we
+                strive to provide solutions that make a difference. Our team of
+                experts works passionately to create value, ensuring that every
+                product and service meets the highest standards.
               </p>
             </section>
             {/* each column  */}
             <section className=" bg-gray-100 p-[20px] rounded-[20px] flex flex-col gap-[10px]">
               <h2 className=" sm:text-[35px] text-[23px] font-bold sm:leading-[35px] text-black flex items-center justify-between">
-                Building Renovation{" "}
+                Our mission{" "}
                 <button
                   id="vision"
                   className=" text-[20px]  cursor-pointer font-light"
@@ -91,19 +92,24 @@ function AboutUs() {
                 </button>
               </h2>
               {vision && (
-                <p className=" text-gray-800 ">
-                  <b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing
-                  elit. Aspernatur voluptatem consequatur dolor provident
-                  expedita, dignissimos consequuntur, quibusdam accusamus hic
-                  dolore fuga veritatis fugit velit, obcaecati at. Nam
-                  necessitatibus qui vitae.
-                </p>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ delay: 0.15, duration: 1 }}
+                  viewport={{ once: true }}
+                  className=" text-gray-800 ">
+                  <b>At PEKLYNRESOURCES ENTERPRISES,</b>our mission is to create
+                  cleaner, healthier, and more comfortable spaces for homes and
+                  businesses. We are dedicated to delivering top-quality
+                  cleaning solutions with professionalism, efficiency, and
+                  attention to detail.i at. Nam
+                </motion.p>
               )}
             </section>
             {/* each column  */}
             <section className=" bg-gray-100 p-[20px] rounded-[20px] flex flex-col gap-[10px]">
               <h2 className=" sm:text-[35px] text-[23px] font-bold sm:leading-[35px] text-black flex items-center justify-between">
-                Building Renovation{" "}
+                Our vision{" "}
                 <button
                   id="history"
                   className=" text-[20px]  cursor-pointer font-light"
@@ -112,13 +118,19 @@ function AboutUs() {
                 </button>
               </h2>
               {history && (
-                <p className=" text-gray-800 ">
-                  <b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing
-                  elit. Aspernatur voluptatem consequatur dolor provident
-                  expedita, dignissimos consequuntur, quibusdam accusamus hic
-                  dolore fuga veritatis fugit velit, obcaecati at. Nam
-                  necessitatibus qui vitae.
-                </p>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ delay: 0.15, duration: 1 }}
+                  viewport={{ once: true }}
+                  className=" text-gray-800 ">
+                  <b>At PEKLYNRESOURCES ENTERPRISES,</b>our vision is to become
+                  the leading provider of professional cleaning services,
+                  recognized for excellence, reliability, and innovation. We
+                  strive to set new industry standards by delivering spotless,
+                  hygienic, and refreshing environments that enhance the quality
+                  of life for our clients.
+                </motion.p>
               )}
             </section>
           </div>

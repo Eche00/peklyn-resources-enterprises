@@ -4,6 +4,7 @@ import HouseIcon from "@mui/icons-material/House";
 import DryCleaningIcon from "@mui/icons-material/DryCleaning";
 import LocationCityIcon from "@mui/icons-material/LocationCity";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 function Service() {
   return (
     <div className=" bg-gray-100 sm:py-[100px] py-[50px]">
@@ -44,11 +45,11 @@ function Service() {
                 welcoming workspace.
               </p>
             </article>
-            <a
-              href=""
+            <Link
+              to="services"
               className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px]  text-white">
-              Learn More
-            </a>
+              Learn more
+            </Link>
           </motion.div>
           {/* each box */}
           <motion.div
@@ -69,11 +70,11 @@ function Service() {
                 with convenience and care.
               </p>
             </article>
-            <a
-              href=""
+            <Link
+              to="/services"
               className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
-              Learn More
-            </a>
+              Learn more
+            </Link>
           </motion.div>
           {/* each box */}
           <motion.div
@@ -94,11 +95,11 @@ function Service() {
                 living environment.
               </p>
             </article>
-            <a
-              href=""
+            <Link
+              to="/services"
               className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
-              Learn More
-            </a>
+              Learn more
+            </Link>
           </motion.div>
           {/* each box */}
           <motion.div
@@ -119,11 +120,11 @@ function Service() {
                 well-maintained operations.
               </p>
             </article>
-            <a
-              href=""
+            <Link
+              to="/services"
               className=" underline sm:text-[18px] text-sm font-bold sm:leading-[20px] ">
-              Learn More
-            </a>
+              Learn more
+            </Link>
           </motion.div>
         </section>
       </div>
