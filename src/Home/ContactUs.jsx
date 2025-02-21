@@ -1,5 +1,6 @@
 import { WhatsApp } from "@mui/icons-material";
 import React from "react";
+import { motion } from "framer-motion";
 
 function ContactUs() {
   const phone = (
@@ -87,7 +88,12 @@ function ContactUs() {
           {/* part 2 */}
           <div className=" flex flex-wrap  gap-[33px] items-center justify-center py-[50px]  sm:w-full w-[90%] mx-auto">
             {/* count  */}
-            <div className=" py-[25px] px-[40px] flex flex-col gap-[48px] border border-[#1A1A1A33] rounded-[10px] bg-blue-700  md:w-fit w-[90%]">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" py-[25px] px-[40px] flex flex-col gap-[48px] border border-[#1A1A1A33] rounded-[10px] bg-blue-700  md:w-fit w-[90%]">
               <span className=" p-[10px] rounded-[5px] border border-white w-fit">
                 {phone}
               </span>
@@ -103,8 +109,13 @@ function ContactUs() {
                   (+234) 817 927 5757
                 </a>
               </section>
-            </div>
-            <div className=" py-[25px] px-[40px] flex flex-col gap-[48px]  shadow-md shadow-[#1A1A1A33] rounded-[10px]   bg-white md:w-fit w-[90%] ">
+            </motion.div>
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" py-[25px] px-[40px] flex flex-col gap-[48px]  shadow-md shadow-[#1A1A1A33] rounded-[10px]   bg-white md:w-fit w-[90%] ">
               <span className=" p-[10px] rounded-[5px]   bg-gray-100 w-fit">
                 {message}
               </span>
@@ -122,9 +133,14 @@ function ContactUs() {
                   peklynservice@gmail.com
                 </a>
               </section>
-            </div>
+            </motion.div>
             {/* count  */}
-            <div className=" py-[25px] px-[40px] flex flex-col gap-[48px]  shadow-md shadow-[#1A1A1A33] rounded-[10px]   bg-white md:w-fit w-[90%]">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" py-[25px] px-[40px] flex flex-col gap-[48px]  shadow-md shadow-[#1A1A1A33] rounded-[10px]   bg-white md:w-fit w-[90%]">
               <span className=" p-[10px] rounded-[5px]   bg-gray-100 w-fit">
                 {chat}
               </span>
@@ -140,9 +156,14 @@ function ContactUs() {
                   peklynservice@gmail.com
                 </p>
               </section>
-            </div>
+            </motion.div>
             {/* count  */}
-            <div className=" py-[25px] px-[40px] flex flex-col gap-[48px]  shadow-md shadow-[#1A1A1A33] rounded-[10px]   bg-white md:w-fit w-[90%] ">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.25, duration: 1 }}
+              viewport={{ once: true }}
+              className=" py-[25px] px-[40px] flex flex-col gap-[48px]  shadow-md shadow-[#1A1A1A33] rounded-[10px]   bg-white md:w-fit w-[90%] ">
               <span className=" p-[10px] rounded-[5px]   bg-gray-100 w-fit text-blue-700 ">
                 <WhatsApp />
               </span>
@@ -160,7 +181,7 @@ function ContactUs() {
                   Click here
                 </a>
               </section>
-            </div>
+            </motion.div>
             {/* count  */}
           </div>
         </div>
