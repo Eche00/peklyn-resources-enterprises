@@ -1,6 +1,6 @@
 import { GitHub, Instagram, LinkOutlined } from "@mui/icons-material";
 import React from "react";
-import { TestImg } from "../assets";
+import { Founder, TestImg } from "../assets";
 import { motion } from "framer-motion";
 
 function Featured() {
@@ -56,7 +56,7 @@ function Featured() {
             <div>
               <img
                 className=" w-[200px] h-[200px] object-cover rounded-full"
-                src={TestImg}
+                src={Founder}
                 alt=""
               />
             </div>

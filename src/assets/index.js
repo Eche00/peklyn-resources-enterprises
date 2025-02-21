@@ -40,6 +40,7 @@ import whyImg6 from "./whyimg6.png";
 import whyImg7 from "./whyimg7.png";
 
 import Logo from "./logoM.png";
+import Founder from "./treas.png";
 
 export {
   TestImg,
@@ -76,4 +77,5 @@ export {
   whyImg6,
   whyImg7,
   Logo,
+  Founder,
 };

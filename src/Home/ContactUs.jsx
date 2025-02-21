@@ -132,7 +132,7 @@ function ContactUs() {
                     Chat to sales
                   </span>{" "}
                   <br />
-                  Chat to our sales team
+                  Chat to our cleaning team
                 </p>
                 <p className=" text-[18px] font-[600] underline">
                   peklynservice@gmail.com
