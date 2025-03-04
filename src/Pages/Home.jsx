@@ -16,12 +16,12 @@ function Home() {
         <AboutUs />
         <Support />
         <Featured />
-        <div className="sm:my-20  my-10">
+        {/* <div className="sm:my-20  my-10">
           <h1 className=" sm:text-[50px] text-[23px] font-extrabold sm:leading-[50px] text-center ">
             What our customers say
           </h1>
           <Reviews />
-        </div>
+        </div> */}
         <ContactUs />
       </div>
     </div>
