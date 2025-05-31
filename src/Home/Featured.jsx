@@ -1,6 +1,5 @@
-import { GitHub, Instagram, LinkOutlined } from "@mui/icons-material";
 import React from "react";
-import { Founder, TestImg } from "../assets";
+import { Founder } from "../assets";
 import { motion } from "framer-motion";
 
 function Featured() {
