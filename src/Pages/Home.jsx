@@ -5,7 +5,6 @@ import AboutUs from "../Home/AboutUs";
 import Support from "../Home/Support";
 import Featured from "../Home/Featured";
 import ContactUs from "../Home/ContactUs";
-import Reviews from "../Home/Reviews";
 
 function Home() {
   return (
